@@ -48,5 +48,4 @@ make clean
  - Works with same author and same date (e.g., Author 2020a; 2020b). 
    This will probably *not* be implemented as we just can't be sure that the author
    of the submission will order the a, b, ... order in the exact way as required by 
-   the APA (rules like these can be tricky to follow; one reason why one really shouldn't
-   type references manually...)
+   the APA.

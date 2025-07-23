@@ -17,7 +17,7 @@ def find_remaining_citations(elem, doc):
     if isinstance(elem, pf.Str) \
         and not isinstance(elem.parent, pf.Cite) \
         and not isinstance(elem.parent, pf.Link):
-        result = re.search("(\d{4}[a-z]*)", elem.text)
+        result = re.search("(\\d{4}[a-z]*)", elem.text)
         if result:
             doc.remaining_citations.add(result.group(1))
             doc.citation_candidate_counter += 1
